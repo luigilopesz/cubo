@@ -1,4 +1,4 @@
-from .my_lib import *
+from .cubomaluco import *
 
 __author__ = 'luigilopesz'
 __email__ = 'luigilopes09@gmail.com'

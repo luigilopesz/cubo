@@ -33,7 +33,7 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.12',
+    python_requires='>=3.11',
     entry_points={
         'console_scripts': [
             f'cubo-cli={MODULE_SLUG}.main:app',

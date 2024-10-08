@@ -13,8 +13,15 @@ def print_info(custom_message : str = ""):
     Print information about the module
     """
     console.print("Hello! I am cubo")
-    console.print(f"Author: { cubo.__author__}")
+    console.print(f"Author: { cubo.__author__} / FELIPE MARIANO")
     console.print(f"Version: { cubo.__version__}")
+    console.print("COMANDOS: W A S D para rotacionar")
+    console.print("---")
+    console.print("COMANDOS: Q E para aproximar e afastar")
+    console.print("---")
+    console.print("COMANDOS: C para ver o cubo")
+    console.print("---")
+    console.print("COMANDOS: V para ver a vaca")
     if custom_message != "":
         console.print(f"Custom message: {custom_message}")
 
@@ -24,7 +31,6 @@ def run():
     Probably run the main function of the module
     """
     print("Hello world!")
-    cubo.my_function()
     script_path = Path(os.path.abspath(__file__))
     parent_path = script_path.parent
     print("Script path:", script_path)

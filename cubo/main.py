@@ -21,7 +21,9 @@ def print_info(custom_message : str = ""):
     console.print("---")
     console.print("COMANDOS: C para ver o cubo")
     console.print("---")
-    console.print("COMANDOS: V para ver a vaca")
+    console.print("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
+    console.print(">>>COMANDOS: V para ver a vaca<<<")
+    console.print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
     if custom_message != "":
         console.print(f"Custom message: {custom_message}")
 
@@ -31,6 +33,7 @@ def run():
     Probably run the main function of the module
     """
     print("Hello world!")
+    cubo.run_aps4()
     script_path = Path(os.path.abspath(__file__))
     parent_path = script_path.parent
     print("Script path:", script_path)
